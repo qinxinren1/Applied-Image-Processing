@@ -1,0 +1,261 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "framework",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-framework-Debug-beda9666560c34841701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "framework/third_party",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8
+					],
+					"jsonFile" : "directory-framework.third_party-Debug-86f340e663f5e295bc9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "framework/third_party"
+				},
+				{
+					"build" : "framework/third_party/catch2",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-framework.third_party.catch2-Debug-e49ad868b6b0088c6417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2"
+				},
+				{
+					"build" : "framework/third_party/catch2/src",
+					"jsonFile" : "directory-framework.third_party.catch2.src-Debug-b4545d8872194d38ad52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2/src",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "framework/third_party/glm",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-framework.third_party.glm-Debug-b81a436048776e546a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "framework/third_party/glm/glm",
+					"jsonFile" : "directory-framework.third_party.glm.glm-Debug-b39ec6c24985c9ab67cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm/glm"
+				},
+				{
+					"build" : "framework/third_party/fmt",
+					"jsonFile" : "directory-framework.third_party.fmt-Debug-3e87864ee990a283ee4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/fmt",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "framework/third_party/stb",
+					"jsonFile" : "directory-framework.third_party.stb-Debug-05fb1713e3f468db1d01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/stb"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8
+					],
+					"name" : "cs4365",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CGFramework::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-CGFramework-Debug-f80e885c7d26eb163be3.json",
+					"name" : "CGFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2-Debug-7dd29d80ea3875fe4542.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2WithMain::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2WithMain-Debug-e08811a47483a5b41456.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a2_warping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a2_warping-Debug-d0beff81fac5a49ba3c2.json",
+					"name" : "a2_warping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fmt::@0dd0d94e1dc15276fb9a",
+					"jsonFile" : "target-fmt-Debug-f193979f81aefcbe7571.json",
+					"name" : "fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@3d52fb0c6669cf922159",
+					"jsonFile" : "target-uninstall-Debug-29b4731c641dbf114625.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug",
+		"source" : "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

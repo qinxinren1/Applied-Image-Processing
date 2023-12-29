@@ -1,0 +1,22 @@
+## Set up the environment
+
+conda create -n faceMorph python=3.10
+conda activate faceMorph
+conda install dlib = 19.24.0
+conda install opencv = 4.6.0
+conda install pillow = 10.0.1
+conda install numpy = 1.26.1
+conda install pytorch = 2.0.1
+
+## How to run the program
+python main.py
+input images are stored in the directory ./input
+In this program I have stored 3 images which can all be used for testing
+user can also change the output location, and the length of output video
+
+## UI interface interpolation
+1. click 'load image 1' and 'load image 2' to upload images from disk
+2. click 'process image' button to detect the landmarks
+3. click the images to add more landmarks, the added landmarks are in blue
+4. click 'compute result' to generate the morphing sequence
+5. see the output video in output folder

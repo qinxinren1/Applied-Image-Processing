@@ -1,0 +1,18 @@
+name: assignment_pytorch
+channels:
+  - pytorch
+  - defaults
+  # - fastai
+dependencies:
+  - python=3.10.4
+  - matplotlib=3.7.1
+  - imageio=2.19.3
+  - numpy=1.24.3
+  - scikit-image=0.20.0
+  - cpuonly
+  - pytorch=1.12.1
+  - pytorch-mutex=1.0
+  - torchvision=0.13.1
+  # - opencv-python-headless
+  # - conda-forge::imageio-ffmpeg=0.4.7
+  

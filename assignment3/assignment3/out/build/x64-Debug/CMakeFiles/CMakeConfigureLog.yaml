@@ -1,0 +1,140 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/RQX/软件/Visual Studio/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32822 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.37.32822.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/RQX/申请材料/申请学校/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\RQX\\申请材料\\申请学校\\TUD\\Q1\\AIP\\assignment3\\assignment3\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9vl4ng"
+      binary: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9vl4ng"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/RQX/申请材料/申请学校/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9vl4ng
+        
+        Run Build Command(s):D:/RQX/软件/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a8d74 && [1/2] "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a8d74.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_a8d74.dir\\ /FS -c "D:\\RQX\\软件\\Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\RQX\\软件\\Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a8d74.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_a8d74.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_a8d74.exe /implib:cmTC_a8d74.lib /pdb:cmTC_a8d74.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ajab0a"
+      binary: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ajab0a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: D:/RQX/申请材料/申请学校/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ajab0a
+        
+        Run Build Command(s):D:/RQX/软件/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d7952 && [1/2] "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d7952.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_d7952.dir\\ /FS -c D:\\RQX\\申请材料\\申请学校\\TUD\\Q1\\AIP\\assignment3\\assignment3\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ajab0a\\OpenMPTryFlag.cpp
+        [2/2] cmd.exe /C "cd . && "D:\\RQX\\软件\\Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d7952.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d7952.dir\\OpenMPTryFlag.cpp.obj  /out:cmTC_d7952.exe /implib:cmTC_d7952.lib /pdb:cmTC_d7952.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "D:/RQX/\u8f6f\u4ef6/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y5cs3r"
+      binary: "D:/RQX/\u7533\u8bf7\u6750\u6599/\u7533\u8bf7\u5b66\u6821/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y5cs3r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: D:/RQX/申请材料/申请学校/TUD/Q1/AIP/assignment3/assignment3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y5cs3r
+        
+        Run Build Command(s):D:/RQX/软件/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ae6a9 && [1/2] "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ae6a9.dir\\OpenMPCheckVersion.cpp.obj /FdCMakeFiles\\cmTC_ae6a9.dir\\ /FS -c D:\\RQX\\申请材料\\申请学校\\TUD\\Q1\\AIP\\assignment3\\assignment3\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y5cs3r\\OpenMPCheckVersion.cpp
+        [2/2] cmd.exe /C "cd . && "D:\\RQX\\软件\\Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae6a9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "D:\\RQX\\软件\\Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ae6a9.dir\\OpenMPCheckVersion.cpp.obj  /out:cmTC_ae6a9.exe /implib:cmTC_ae6a9.lib /pdb:cmTC_ae6a9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -1,0 +1,13 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "本地计算机": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    ""
+  ],
+  "SelectedNode": "\\D:\\RQX\\申请材料\\申请学校\\TUD\\Q1\\AIP\\assignment1\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}
